@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fondoBodyIndex {
+  background-color: #1d2222;
+  background-image: url("../img/galeria509x338.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tituloPortada {
+  margin-top: 5%;
+  margin-bottom: 50%;
+  margin-right: 45%;
+  margin-left: 5%;
+  color: #D6B409;
+}
+.tituloPortada p {
+  font-size: 50px;
+  font-family: "Gluten", cursive;
+  letter-spacing: 3px;
+}
+
+.fondoNosotros {
+  background: linear-gradient(to right, #536976, #292E49);
+}
+
+.nosotros {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  color: #D6B409;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.parrafoNosotros {
+  min-height: 600px;
+  margin: 10px 20px;
+  padding: 20px 20px;
+  font-style: italic;
+  color: turquoise;
+  word-spacing: 3px;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0.52px;
+  font-weight: 500;
+  text-align: left;
+  text-indent: 3rem;
+}
+
+.fondo-productos {
+  background: linear-gradient(to right, #536976, #292E49);
+}
+
+.ipaRojaNegra {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+  background-color: white;
+  border: solid 10px #292E49;
+  border-radius: 18px;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.ipaRojaNegra h2 {
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  font-weight: 750;
+}
+.ipaRojaNegra cajaIpa {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+.ipaRojaNegra cajaRoja {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+.ipaRojaNegra cajaNegra {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+.fondoBodyContacto {
+  background: linear-gradient(to right, #536976, #292E49);
+}
+
+.fondoContacto {
+  background: linear-gradient(to right, #BBD2C5, #536976);
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  border: double 5px #D6B409;
+  border-radius: 20px;
+  border-color: #D6B409;
+}
+
+.fondoBodyApp {
+  background: linear-gradient(to right, #536976, #292E49);
+}
+
+.margin {
+  margin-top: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */

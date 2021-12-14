@@ -1,0 +1,12 @@
+.fondoBodyContacto {
+    background:$fondo-body;
+}
+.fondoContacto {
+    background: linear-gradient(to right, #BBD2C5, #536976);
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    border: double 5px #D6B409;
+    border-radius: 20px;
+    border-color:#D6B409;
+}
