@@ -1,13 +1,15 @@
 .fondoBodyIndex {
-    background-color: rgb(29, 34, 34);
-    background-image:url("../img/galeria509x338.jpg");
-    background-position:center;
+    background-color:$fondo-body;
+    background-image:url("../img/BeerHome.jpg");
+    background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
+
 .tituloPortada {
-    margin-top: 5%;
+    margin-top: 4rem;
     margin-bottom: 50%;
     margin-right: 45%;
     margin-left: 5%;

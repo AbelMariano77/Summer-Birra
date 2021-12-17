@@ -50,27 +50,70 @@
                 </ul>
             </div>
         </header>
-        <main class="">
-            <div class="ipaRojaNegra">
-                <div class="" id="ipa">
-                    <h2>IPA</h2>
-                    <img class="chopIpa" src="../img/ChopBeerIpa.jpg"/>
-                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <main class="ipaRojaNegra ">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="beers">
+                    <h1>BEERS</h1>
                 </div>
-                <div class="cajaRoja" id="roja">
-                    <h2>ROJA</h2>
-                    <img class="chopRoja" src="../img/ChopBeerRoja.jpg"/>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="cajaNegra" id="negra">
-                    <h2>NEGRA</h2>
-                    <img class="chopNegra" src="../img/ChopBeerNegra.jpg"/>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../img/ChopBeerIpa.jpg" class="d-block mx-auto" alt="...">
+                    <div class=" d-none d-md-block padd">
+                      <h5>DOUBLE IPA</h5>
+                      <p>Es una versión fuerte, un poco dulce y sabor intenso. Un IBU de 100 o superior. Su nivel alcohólico se inicia en el 7,5% y normalmente supera el 8%.
+
+                        En cuanto al aroma, tiene un intenso aroma a lúpulo y un carácter cítrico está siempre presente.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/ChopBeerRoja.jpg" class="d-block mx-auto" alt="...">
+                    <div class=" d-none d-md-block padd">
+                      <h5>RED ALE</h5>
+                      <p>Aspecto
+
+                        Cerveza de color rojo, con espuma ligeramente rosada
+                        Aroma
+                        
+                        Aromasa trigo, malta y ligeramente a fruta
+                        
+                        Graduación
+                        
+                        Suelen tener una graduación alcohólica cercana a los 5 grados
+                        Sabor
+                        
+                        Es una bebida con un sabor a malta caramelo. Su sabor es medio y posee amargura baja</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/ChopBeerNegra.jpg" class="d-block mx-auto" alt="...">
+                    <div class=" d-none d-md-block padd">
+                      <h5>BLACK STOUT</h5>
+                      <p>
+                        Es una variante inglesa del estilo Porter.
+                        
+                        Tiene una mayor cantidad de alcohol por volumen (del 6% hasta el 15%) y una mayor concentración de lúpulo y malta que la hace amarga.
+                        
+                        Es de las cervezas negras más fuertes, con mucho cuerpo, sabor poderoso y toques tostados.</p>
+                    </div>
+                  </div>
                 </div>
-            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </main>
         <footer>
-            <div class="conteiner align-content-sm-center bottom">
+            <div class="conteiner align-content-sm-center fixed-bottom">
                 <ul class="nav nav-pills nav-fill">
                     <li class="nav-item">
                     <a class="nav-link badge rounded-pill bg-warning text-dark" href="#">FAQ</a>
