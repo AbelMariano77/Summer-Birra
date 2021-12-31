@@ -7,8 +7,8 @@
 
         <!--SEO-->
 
-        <meta name="keywords" content="summer beer cerveza pinta ipa negra roja">
-        <meta name="description" content="el verano tiene buena pinta summer beer cerveza ipa negra roja">
+        <meta name="keywords" content="summer beer cerveza pinta ipa porter stout lager lúpulo">
+        <meta name="description" content="el verano tiene buena pinta summer beer cerveza birra ipa porter stout lager lúpulo">
 
         <!--Bootstrap CSS-->
 
@@ -17,64 +17,69 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@800&display=swap" rel="stylesheet">
         
-        <!--Icon + CSS + title-->
+        <!--Icon + MyStyleCSS + Animation + title-->
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> 
         <link rel="shortcut icon" href="img/faviconBeer.png">
         <link rel="stylesheet" href="css/style.css">
-        <title>Nosotros</title>
+        <title>Summer Beer</title>
     </head>
-    <body class= "fondoNosotros">
-        <header>
-            <div class="conteiner align-content-sm-center fixed-top">
-                <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
-                        <a class="nav-link active badge rounded-pill bg-warning text-dark" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle badge rounded-pill bg-warning text-dark" data-bs-toggle="dropdown" href="productos.html" role="button" aria-expanded="false">Productos</a>
-                            <ul class="dropdown-menu bg-transparent">
-                                <li><a class="dropdown-item badge rounded-pill bg-warning text-dark" href="productos.html#ipa">Ipa</a></li>
-                                <li><a class="dropdown-item badge rounded-pill bg-warning text-dark" href="productos.html#roja">Roja</a></li>
-                                <li><a class="dropdown-item badge rounded-pill bg-warning text-dark" href="productos.html#negra">Negra</a></li>
-                            </ul>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link badge rounded-pill bg-warning text-dark" href="nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link badge rounded-pill bg-warning text-dark" href="app.html">App</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link badge rounded-pill bg-warning text-dark" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
+        <body class="fondoNosotros">
+            <header>
+                <nav class="navbar navbar-expand-sm navbar-dark shadow-sm fixed-top">
+                    <div class="container-fluid px-4">
+                        <a class="mx-md-5 px-3 navbar-brand-warning text-camelcase fw-bold fs-4 text-warning text-decoration-none" href="index.html">
+                        Summer<img src="./img/sun.png" alt="" class="align-items-center">Birra</a>
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="navbar-collapse collapse show" id="navbarBasic">
+                            <div class="btn-border-radius navbar-nav mx-auto fs-5 fw-bold text-white">
+                                <a class="nav-link" href="beers.html">Beers</a>
+                                <a class="nav-link" href="info.html">Info</a>
+                                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        <main>
+            <div class="container-fluid-sm mt-5 pt-5 mx-0">
+                <h1 class="text-warning fw-bold fs-1 text-center mb-3">Summer<img src="./img/sun64.png" alt="logoSummerBirra">Birra</h1>
+                <img src="./img/cordillersa-de-los-andes.jpg" class="rounded mx-auto d-block">
             </div>
-        </header>
-        <section>
-            <h1 class="nosotros">SUMMER BEER</h1>
-            
-                <p class="parrafoNosotros">
+            <div class="container mx-md-5 px-md-5 text-white rounded-3">
+                    <p class="display-6 lh-base px-md-5 py-5 px-md-5 text-info fw-bold fst-italic">
                         !Somos una pequeña fábrica de Cervezas Artesanales, hechas a base de agua natural del 
-                    deshielo proveniente de la Cordillera de los Andes!
-                            Desde Mendoza hacia el mundo,
-                    nuestra misión es la creación de productos de alta calidad y sabor inconfundible.
-                </p>
-        </section>
-        <footer>
-            <div class="conteiner align-content-sm-center fixed-bottom">
-                <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
-                        <a class="nav-link badge rounded-pill bg-warning text-dark" href="#">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link badge rounded-pill bg-warning text-dark" href="#">Politica de privacidad</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link badge rounded-pill bg-warning text-dark" href="#">Términos y condiciones</a>
-                    </li>
-                </ul>
+                    deshielo proveniente de la Cordillera de los Andes!<br>
+                    Desde Mendoza hacia el mundo<img src="./img/worldwide.png" alt="logoWorld"><br>
+                    Nuestra misión es la creación de productos de alta calidad en el mercado de cervezas artesanales con un enfoque comercial moderno y revolucionario en proyección.<br>
+                    Salúd! & Exitos!
+                    </p>
+            </div> 
+        </main>
+        <div class="position-relative bottom-0 marginZero">
+
+            <footer class="bg-copyr text-center text-white">
+            <div class="bg-footer container-fluid">
+                <section class="px-0 py-1 sm-4">
+                <h2 class="fs-5">¡Síguenos!</h2>
+                <a class="btn btn-outline btn-floating m-1" href="#!" role="button">
+                    <img src="/img/twitter.png"></a>
+
+                <a class="btn btn-outline btn-floating m-1" href="#!" role="button">
+                    <img src="/img/instagram.png"></a>
+    
+                <a class="btn btn-outline btn-floating m-1" href="#!" role="button">
+                    <img src="/img/facebook.png"></a>
+                </section>
             </div>
-        </footer>
+            <div class="text-center py-1">
+                © 2021 Copyright: Summer-Birra<img src="./img/cheers(3).png">
+            </div>
+            </footer>
+        </div>
         
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>        

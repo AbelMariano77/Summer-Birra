@@ -1,15 +1,20 @@
-.fondoBodyContacto {
-    background:$fondo-body;
-}
+
 .fondoContacto {
-    background: linear-gradient(to right, #BBD2C5, #536976);
-    display: flex;
-    margin-top: 2rem;
+    background-image: url(../img/fondoCon.jpg);
+    background-size:cover;
+    
+.formulario {
+    max-width: 30rem;
+    margin: 2rem auto;
+    display:flex;
     justify-content: center;
-    border: double 5px #D6B409;
-    border-radius: 20px;
-    border-color:#D6B409;
+    background:$fondo-body;
+    padding: 2rem 2rem;
+    display: block;
+    align-content: center;
+    
+.text {
+    resize: none;
 }
-.padd {
-    padding: 1rem 2rem;
+}
 }

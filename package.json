@@ -1,12 +1,12 @@
 {
-  "name": "aplicando-sass",
+  "name": "summerbirra",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch scss/style.scss css/style.css"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["summer verano cerveza beer"],
+  "author": "Abel Mariano Sosa",
   "license": "ISC"
 }

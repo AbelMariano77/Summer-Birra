@@ -4,6 +4,27 @@
   box-sizing: border-box;
 }
 
+.marginZero {
+  max-width: 100%;
+  height: auto;
+}
+
+.indent {
+  text-indent: 2rem;
+}
+
+.navbar {
+  background: linear-gradient(to bottom, black, #b8741c);
+}
+
+.bg-footer {
+  background: linear-gradient(to bottom, #b8741c, black);
+}
+
+footer {
+  background-color: black;
+}
+
 .fondoBodyIndex {
   background-color: linear-gradient(to right, #536976, #292E49);
   background-image: url("../img/BeerHome.jpg");
@@ -15,10 +36,9 @@
 
 .tituloPortada {
   margin-top: 4rem;
-  margin-bottom: 50%;
-  margin-right: 45%;
+  padding-top: 3rem;
+  margin-right: 50%;
   margin-left: 5%;
-  color: #D6B409;
 }
 .tituloPortada p {
   font-size: 50px;
@@ -30,79 +50,42 @@
   background: linear-gradient(to right, #536976, #292E49);
 }
 
-.nosotros {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 40px;
-  color: #D6B409;
-  text-align: center;
-  margin-top: 50px;
-}
-
-.parrafoNosotros {
-  min-height: 600px;
-  margin: 10px 20px;
-  padding: 20px 20px;
-  font-style: italic;
-  color: turquoise;
-  word-spacing: 3px;
-  font-size: 22px;
-  line-height: 1.5;
-  letter-spacing: 0.52px;
-  font-weight: 500;
-  text-align: left;
-  text-indent: 3rem;
-}
-
 .fondo-productos {
   background: linear-gradient(to right, #536976, #292E49);
-}
-
-.ipaRojaNegra {
-  display: flex;
-  width: 100%;
-  margin-top: 2rem;
-  background-color: white;
-  border: solid 10px #292E49;
-  border-radius: 18px;
-}
-
-.beers {
-  width: 100%;
-  margin-top: 0;
-  text-align: center;
-  font-weight: bold;
-  font-size: 30px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 padd {
   padding: auto 2rem;
 }
 
-.fondoBodyContacto {
-  background: linear-gradient(to right, #536976, #292E49);
+.bg-cards {
+  background: linear-gradient(to right, #292E49, #536976);
 }
 
 .fondoContacto {
-  background: linear-gradient(to right, #BBD2C5, #536976);
+  background-image: url(../img/fondoCon.jpg);
+  background-size: cover;
+}
+.fondoContacto .formulario {
+  max-width: 30rem;
+  margin: 2rem auto;
   display: flex;
-  margin-top: 2rem;
   justify-content: center;
-  border: double 5px #D6B409;
-  border-radius: 20px;
-  border-color: #D6B409;
-}
-
-.padd {
-  padding: 1rem 2rem;
-}
-
-.fondoBodyApp {
   background: linear-gradient(to right, #536976, #292E49);
+  padding: 2rem 2rem;
+  display: block;
+  align-content: center;
+}
+.fondoContacto .formulario .text {
+  resize: none;
 }
 
 .margin {
   margin: 4rem 2rem;
+}
+
+.fondoColorBody {
+  background: linear-gradient(to right, #536976, #292E49);
 }
 
 /*# sourceMappingURL=style.css.map */
